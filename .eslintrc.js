@@ -22,6 +22,6 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
-    // お好みで構文解析のルールを追加
+    semi: ['error', 'always'],
   },
-}
+};
